@@ -1,0 +1,37 @@
+# Projectoverzicht
+Dit project betreft de ontwikkeling van "Stan de GitHub Agent", een geautomatiseerde assistent die helpt bij het beheren van softwareontwikkelingsprojecten via GitHub. De agent biedt ondersteuning bij het organiseren van taken, het bijhouden van voortgang en het gestructureerd doorvoeren van wijzigingen in de code.
+
+# Architectuur
+Het project heeft een modulaire opzet die bestaat uit de volgende hoofdcomponenten:
+
+## Modulestructuur
+1. **Core Module** - Kernfunctionaliteit van de GitHub Agent
+2. **Issue Tracking Module** - Beheer van GitHub issues
+3. **Branch Management Module** - Beheer van branches en pull requests
+4. **Documentation Module** - Bijhouden van projectdocumentatie
+
+## Per module
+
+### Core Module
+- **Status**: In ontwikkeling
+- **Bestandsnaam**: core.py
+- **Functionaliteit**: Biedt de basisfunctionaliteit voor de GitHub Agent, inclusief configuratie, authenticatie en algemene hulpprogramma's
+- **Afhankelijkheden**: Geen afhankelijkheden van andere modules
+
+### Issue Tracking Module
+- **Status**: Gepland
+- **Bestandsnaam**: issue_tracker.py
+- **Functionaliteit**: Volgt GitHub-issues en biedt functionaliteit voor het aanmaken, bijwerken en sluiten van issues
+- **Afhankelijkheden**: Core Module
+
+### Branch Management Module
+- **Status**: Gepland
+- **Bestandsnaam**: branch_manager.py
+- **Functionaliteit**: Beheert GitHub-branches en pull requests, inclusief het aanmaken van branches en het indienen van pull requests
+- **Afhankelijkheden**: Core Module
+
+### Documentation Module
+- **Status**: Gepland
+- **Bestandsnaam**: documentation.py
+- **Functionaliteit**: Houdt projectdocumentatie bij, waaronder het bijwerken van claude.txt en claude_steps.txt
+- **Afhankelijkheden**: Core Module
